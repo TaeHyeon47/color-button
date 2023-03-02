@@ -3,11 +3,16 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "plugin:testing-library",
+    "plugin:jest-dom/recommended"
+  ],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "plugins": ["react"],
+  "plugins": ["testing-library", "jest-dom"],
   "rules": {}
 }

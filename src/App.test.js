@@ -14,7 +14,7 @@ test('button has correct initial color, and updates when clicked', () => {
   // click button
   fireEvent.click(colorButton);
 
-  // expect the bacground color to be blue
+  // expect the bacground coor to be blue
   expect(colorButton).toHaveStyle({ backgroundColor: 'blue' });
 
   // expect the button text to be 'Change to red'
