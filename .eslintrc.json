@@ -1,18 +1,9 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
+  "plugins": ["testing-library", "jest-dom"],
   "extends": [
     "react-app",
     "react-app/jest",
-    "plugin:testing-library",
+    "plugin:testing-library/react",
     "plugin:jest-dom/recommended"
-  ],
-  "overrides": [],
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
-  "plugins": ["testing-library", "jest-dom"],
-  "rules": {}
+  ]
 }
